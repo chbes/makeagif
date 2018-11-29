@@ -22,7 +22,9 @@ go build -o mag cmd/main.go
 
 ## Utilization
 
-Command below create a new GIF **Gopher**, from all JPEG images found in the folder **inputs**.
+Command below create a new GIF **Gopher**, from all images found in the folder **inputs**.
+
+*You can create a GIF from JPEG or PNG images.*
 
 ```
 ./mag -inFolder="inputs" -outFile="Gopher"
@@ -46,7 +48,6 @@ The flag **-factory** in the command below launch the factory mode. It create on
 Before:
 ```
 .
-+-- outputs
 +-- Moon
 |   +-- picture1.jpg
 |   +-- picture2.jpg
@@ -55,8 +56,8 @@ Before:
 |   +-- IMG_002.jpeg
 |   +-- IMG_003.jpeg
 +-- Wouah
-|   +-- IMG_100.jpg
-|   +-- IMG_101.jpg
+|   +-- IMG_100.png
+|   +-- IMG_101.png
 ```
 
 After:
@@ -74,8 +75,8 @@ After:
 |   +-- IMG_002.jpeg
 |   +-- IMG_003.jpeg
 +-- Wouah
-|   +-- IMG_100.jpg
-|   +-- IMG_101.jpg
+|   +-- IMG_100.png
+|   +-- IMG_101.png
 ```
 
 ## User Manual
