@@ -8,8 +8,7 @@ import (
 	"image/png"
 	"os"
 
-	"../ext"
-
+	"github.com/chbes/makeagif/ext"
 	"github.com/nfnt/resize"
 )
 

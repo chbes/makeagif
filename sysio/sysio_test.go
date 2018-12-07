@@ -3,7 +3,7 @@ package sysio_test
 import (
 	"testing"
 
-	"../sysio"
+	"github.com/chbes/makeagif/sysio"
 )
 
 func TestFolderName(t *testing.T) {

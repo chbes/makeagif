@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"../generator"
+	"github.com/chbes/makeagif/generator"
 )
 
 const version = "v1.0"

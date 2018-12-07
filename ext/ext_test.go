@@ -3,7 +3,7 @@ package ext_test
 import (
 	"testing"
 
-	"../ext"
+	"github.com/chbes/makeagif/ext"
 )
 
 func TestIsJPEG(t *testing.T) {

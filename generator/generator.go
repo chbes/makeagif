@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"../frame"
-	"../sysio"
+	"github.com/chbes/makeagif/frame"
+	"github.com/chbes/makeagif/sysio"
 )
 
 // New - Create and save a new GIF

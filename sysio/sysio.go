@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"../ext"
+	"github.com/chbes/makeagif/ext"
 )
 
 const mode = 0666
